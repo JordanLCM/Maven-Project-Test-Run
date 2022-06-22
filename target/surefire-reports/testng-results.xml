@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3540" started-at="2022-06-22T11:15:55 SGT" finished-at="2022-06-22T11:15:58 SGT">
+    <groups>
+    </groups>
+    <test name="Maven" duration-ms="3540" started-at="2022-06-22T11:15:55 SGT" finished-at="2022-06-22T11:15:58 SGT">
+      <class name="phase2_MVN001.MVN001">
+        <test-method status="PASS" signature="testM001()[pri:0, instance:phase2_MVN001.MVN001@ef309d]" name="testM001" duration-ms="3391" started-at="2022-06-22T11:15:55 SGT" finished-at="2022-06-22T11:15:58 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testM001 -->
+        <test-method status="PASS" signature="testM002()[pri:0, instance:phase2_MVN001.MVN001@ef309d]" name="testM002" duration-ms="0" started-at="2022-06-22T11:15:58 SGT" finished-at="2022-06-22T11:15:58 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testM002 -->
+        <test-method status="PASS" signature="testM003()[pri:0, instance:phase2_MVN001.MVN001@ef309d]" name="testM003" duration-ms="0" started-at="2022-06-22T11:15:58 SGT" depends-on-methods="phase2_MVN001.MVN001.testM001" finished-at="2022-06-22T11:15:58 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testM003 -->
+      </class> <!-- phase2_MVN001.MVN001 -->
+      <class name="phase2_MVN001.MVN002">
+        <test-method status="PASS" signature="testM022()[pri:0, instance:phase2_MVN001.MVN002@24f60b]" name="testM022" duration-ms="0" started-at="2022-06-22T11:15:58 SGT" finished-at="2022-06-22T11:15:58 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testM022 -->
+        <test-method status="PASS" signature="testM011()[pri:0, instance:phase2_MVN001.MVN002@24f60b]" name="testM011" duration-ms="0" started-at="2022-06-22T11:15:58 SGT" finished-at="2022-06-22T11:15:58 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testM011 -->
+      </class> <!-- phase2_MVN001.MVN002 -->
+    </test> <!-- Maven -->
+  </suite> <!-- Suite -->
+</testng-results>
